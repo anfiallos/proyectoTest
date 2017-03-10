@@ -742,13 +742,13 @@ public class Course {
 							
 							}
 						
-						System.out.println("Materia CC: " + (String) listFinal.get(j)+ "veces: "+contVeces );
+						System.out.println("Materia : " + (String) listFinal.get(j)+ "veces: "+contVeces );
 						
 						double randomPromedio = min + (max - min) * r.nextDouble();
 					
-						System.out.println("porcentaje: " +probMat);
-						System.out.println("random: " +randomPromedio);
-						System.out.println("ranking: " +ranking);			 
+						System.out.println("porcentaje : " +probMat);
+						System.out.println("random : " +randomPromedio);
+						System.out.println("ranking : " +ranking);			 
 						if (contVeces ==1 ){
 							if (ranking.equals("8"))
 							randomPromedio =randomPromedio-0.42;
