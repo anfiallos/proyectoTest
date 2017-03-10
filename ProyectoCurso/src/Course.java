@@ -570,11 +570,11 @@ public class Course {
 					pr6 = rs2.getDouble(5);
 					prm6 = rs2.getDouble(6);
 					prEx = rs2.getDouble(7);
-					System.out.println("pr2: "+pr2);
-					System.out.println("pr3: "+pr3);
-					System.out.println("pr4: "+pr4);
-					System.out.println("pr5: "+pr5);
-					System.out.println("pr6: "+pr6);
+					System.out.println("pr2 : "+pr2);
+					System.out.println("pr3 : "+pr3);
+					System.out.println("pr4 : "+pr4);
+					System.out.println("pr5 : "+pr5);
+					System.out.println("pr6 : "+pr6);
 					System.out.println("prm6: "+prm6);
 					tot2=pr2;
 					tot3=pr2+pr3;
