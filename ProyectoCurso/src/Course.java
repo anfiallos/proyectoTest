@@ -453,7 +453,7 @@ public class Course {
     private static void print(List<Record> list, Sort s, Field f, int numeroMateria) {
         RecordComparator rc = new RecordComparator(s, f);
         Collections.sort(list, rc);
-        System.out.println("entro lista");
+        System.out.println("entro lista ");
         int pivote = 1;
         listFinal.clear();
         for (Record r : list) {
@@ -532,7 +532,7 @@ public class Course {
 			}
 		}
 		  
-		System.out.println("entra a ordenar");
+		System.out.println("entra a ordenar ");
 		 double pr2,pr3,pr4,pr5,pr6,prm6,prEx=0.00; 
 		 String queryAux = "SELECT materias_dos/total dos, " +
 		 "materias_tres/total tres, materias_cuatro/total cuatro, " + 
